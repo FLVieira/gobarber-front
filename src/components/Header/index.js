@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container, Content, Profile } from './styles';
-
+import Notifications from '../Notifications';
 import logo from '~/assets/logo-purple.svg';
+
+import { Container, Content, Profile } from './styles';
 
 function Header() {
   return (
@@ -15,6 +16,8 @@ function Header() {
         </nav>
 
         <aside>
+          <Notifications />
+
           <Profile>
             <div>
               <strong>Diego Fernandes</strong>
