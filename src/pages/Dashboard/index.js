@@ -63,7 +63,8 @@ function Dashboard() {
       const data = range.map((hour, index) => {
         const fullDate = setSeconds(setMinutes(setHours(date, hour), 0), 0);
         const formattedDate = formatDate(index, hour);
-
+        // O segredo para consertar o problema das datas aqui é pegar e diminuir 3hrs das datas recebidas
+        // na api e aí sim comparar com as datas no range
         return {
           time: `${hour}:00h`,
           past: isBefore(fullDate, new Date()),
