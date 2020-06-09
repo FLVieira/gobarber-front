@@ -23,6 +23,11 @@ Este é o frontend de um projeto criado no Bootcamp da Rocketseat. Nele desenvol
 
 ## Instalação e execução
 
+Pré-requisitos:
+
+- Yarn/Npm
+- [Back-end](https://github.com/FLVieira/gobarber-api) da aplicação executando.
+
 ```
 # Vá no seu terminal e digite os seguintes comandos:
 1. git clone https://github.com/FLVieira/gobarber-front.git
