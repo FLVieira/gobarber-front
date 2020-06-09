@@ -25,6 +25,8 @@ Este é o frontend de um projeto criado no Bootcamp da Rocketseat. Nele desenvol
 
 ```
 # Vá no seu terminal e digite os seguintes comandos:
-yarn 
-yarn start
+1. git clone https://github.com/FLVieira/gobarber-front.git
+2. cd gobarber-front
+3. yarn 
+4. yarn start
 ```
